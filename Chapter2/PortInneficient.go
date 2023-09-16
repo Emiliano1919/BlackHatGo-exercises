@@ -1,15 +1,15 @@
 package main
 
-import(
+import (
 	"fmt"
 	"net"
 )
 
-func main(){
-	_,err := net.Dial("tcp", "scanme.nmap.org:80")
-	if err == nil{
+func main() {
+	_, err := net.Dial("tcp", "scanme.nmap.org:80")
+	if err == nil {
 		fmt.Println("Connected")
-	} else{
+	} else {
 		fmt.Println("Connection failed")
 	}
 }
