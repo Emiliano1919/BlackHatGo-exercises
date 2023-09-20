@@ -33,3 +33,10 @@ func main() {
 		go handle(conn) //This function will serve as our client receiver on our server
 	}
 }
+
+/*Source:
+Black Hat Go book
+https://dev.to/hgsgtk/how-go-handles-network-and-system-calls-when-tcp-server-1nbd   : Blog post
+https://pkg.go.dev/net    : Net Package documentation
+https://medium.com/@adityapathak1189/tcp-server-in-golang-3c75766a8b08      : Blog post
+*/
