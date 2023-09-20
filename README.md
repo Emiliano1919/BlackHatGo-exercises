@@ -4,6 +4,8 @@ To install golang I had to set up a path to my work space, restart the terminal 
 
 To research:
 -brew
+-curl
+-netcat
 
 # Disclaimer
 The exercises come from the "Black Hat Go" book by Tom Steele, Chris Patten, and Dan Kottmann. 

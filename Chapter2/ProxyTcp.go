@@ -34,6 +34,11 @@ func main() {
 	}
 }
 
+/* Conclusion:
+This server can be used with netcat or curl commands.
+How can I connect two computers? For instance run this in one computer and send or receive information by connecting to this computer?
+*/
+
 /*Source:
 Black Hat Go book
 https://dev.to/hgsgtk/how-go-handles-network-and-system-calls-when-tcp-server-1nbd   : Blog post
